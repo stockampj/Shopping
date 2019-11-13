@@ -4,21 +4,41 @@ import './NavBar.css';
 
 function NavBar() {
   return (
-    <div>
+    <div className="nav-row">
       <div className='row top'>
-  
-      </div>
-      <div className='row bottom'>
         <ul>
-          <li className='btn'>Home</li>
-          <li className='btn'>Notifications</li>
-          <li className='btn'>Messages</li>
+          <li className='btn home-button'>EVERLANE</li>
         </ul>
-        <form>
-          <button className='btn tweet'>Post</button>
-          <input type='text' placeholder='Whats on your mind?'/>
-        </form>
       </div>
+      <div className='row bottom nav-row'>
+        <div className='left-cluster'>
+          
+        </div>
+        <div className='right-cluster'>
+          <p>
+          <button className='btn shopping-icon'><i className='fas fa-shopping-bag'></i></button>
+          </p>
+        </div>
+
+
+      </div>
+
+<p>
+  <button className='btn btn-primary' type='button' data-toggle='collapse' data-target='#collapseExample' aria-expanded='false' aria-controls='collapseExample'>
+    Button with data-target
+  </button>
+</p>
+<div className='collapse' id='collapseExample'>
+  <div className='card card-body'>
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+
+
+
+
+
+      
     </div>
   );
 }

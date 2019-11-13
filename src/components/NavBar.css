@@ -1,17 +1,28 @@
-div {
+.nav-row {
   height: 40px;
 }
-.btn {
+
+.home-button {
   background-color: white;
-  border: solid thin gray;
+  border: solid 2px white;
   border-radius: 0%;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 800;
+  color: gray;
+  margin-left: -30px;
 }
-li {
+
+.nav-section {
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+  color: gray;
   float: left;
 }
-li:hover {
-  cursor: pointer;
+
+li {
+  list-style: none;
 }
+
 input {
   float: right;
   border-radius: 20px;
@@ -20,12 +31,7 @@ input {
   width: 250px;
   margin-right: 20px;
 }
-.tweet {
-  float: right;
-  margin-right: 20px;
-  border-radius: 20px;
-  border: solid 2px blue;
-}
+
 .top {
   background-color: black;
   color: white; 
@@ -36,4 +42,15 @@ input {
 }
 .bottom:hover {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.right-cluster {
+  position: fixed;
+  right: 20px;
+  top: 30px; 
+}
+
+.shopping-icon {
+  color: gray;
+  font-size: 30px;
 }
