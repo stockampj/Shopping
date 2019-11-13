@@ -38,7 +38,7 @@ input {
 }
 .bottom {
   background-color: rgba(255, 0, 0, 0);
-  color: white; 
+  color: rgba(97, 97, 97, 1)
 }
 .bottom:hover {
   background-color: rgba(255, 255, 255, 0.8);
@@ -53,4 +53,19 @@ input {
 .shopping-icon {
   color: gray;
   font-size: 30px;
+}
+
+.btn-primary {
+}
+
+.btn-primary:hover {
+  background-color: white;
+}
+.collapse {
+    width: 500px;
+    color: black;
+  }
+
+.dropdown-toggle {
+  width: 500px;
 }
