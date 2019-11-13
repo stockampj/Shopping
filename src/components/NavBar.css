@@ -1,0 +1,39 @@
+div {
+  height: 40px;
+}
+.btn {
+  background-color: white;
+  border: solid thin gray;
+  border-radius: 0%;
+}
+li {
+  float: left;
+}
+li:hover {
+  cursor: pointer;
+}
+input {
+  float: right;
+  border-radius: 20px;
+  border: solid 2px blue;
+  height: 40px;
+  width: 250px;
+  margin-right: 20px;
+}
+.tweet {
+  float: right;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: solid 2px blue;
+}
+.top {
+  background-color: black;
+  color: white; 
+}
+.bottom {
+  background-color: rgba(255, 0, 0, 0);
+  color: white; 
+}
+.bottom:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
