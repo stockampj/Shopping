@@ -1,11 +1,32 @@
-.nav-row {
+.top-nav-row {
+  position: fixed;
+  top: 0px;
   height: 40px;
+  width: 110%;
+  border-bottom: thin gray solid;
+  background-color: black;
+  color: white; 
+}
+
+.bottom-nav-row {
+  position: fixed;
+  top: 40px;
+  height: 40px;
+  width: 110%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+}
+
+.bottom-nav-row:hover {
+  background-color: rgba(255, 255, 255, 0.8);
   border-bottom: thin gray solid;
 }
 
 .home-button {
   background-color: white;
-  border: solid 2px white;
   border-radius: 0%;
   font-family: 'Hind Madurai', sans-serif;
   font-weight: 800;
@@ -33,17 +54,7 @@ input {
   margin-right: 20px;
 }
 
-.top {
-  background-color: black;
-  color: white; 
-}
-.bottom {
-  background-color: rgba(255, 0, 0, 0);
-  color: rgba(97, 97, 97, 1)
-}
-.bottom:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-}
+
 
 .right-cluster {
   position: fixed;
@@ -60,12 +71,7 @@ input {
   font-size: 30px;
 }
 
-.btn-primary {
-}
 
-.btn-primary:hover {
-  background-color: white;
-}
 .collapse {
     width: 500px;
     color: black;

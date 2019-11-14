@@ -9,10 +9,12 @@ function App(){
   return (
     <div className="contentContainer">
       <NavBar />
-      <Switch>
-        <Route exact path='/' component={SplashCarousel} />
-        <Route path='/hotpicks' component={HotPicks} />
-      </Switch>
+      <div className="contentMain">
+        <Switch>
+          <Route exact path='/' component={SplashCarousel} />
+          <Route path='/hotpicks' component={HotPicks} />
+        </Switch>
+      </div>
 
       <div className="test"></div>
     </div>

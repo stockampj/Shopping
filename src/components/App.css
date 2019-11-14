@@ -7,3 +7,10 @@
 .contentContainer {
   height: 400px;
 }
+
+.contentMain {
+  position: fixed;
+  top: 40px;
+  width: 100%;
+
+}
