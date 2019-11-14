@@ -3,7 +3,7 @@
   top: 0px;
   height: 40px;
   width: 110%;
-  border-bottom: thin gray solid;
+
   background-color: black;
   color: white; 
 }
@@ -21,7 +21,7 @@
 }
 
 .bottom-nav-row:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   border-bottom: thin gray solid;
 }
 
@@ -32,6 +32,8 @@
   font-weight: 800;
   color: gray;
   margin-left: -30px;
+  height: 40px;
+  border: none;
 }
 
 .nav-section {
