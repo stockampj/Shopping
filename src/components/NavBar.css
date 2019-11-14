@@ -1,5 +1,6 @@
 .nav-row {
   height: 40px;
+  border-bottom: thin gray solid;
 }
 
 .home-button {
@@ -48,6 +49,10 @@ input {
   position: fixed;
   right: 20px;
   top: 30px; 
+}
+
+.left-cluster {
+  margin-left: 10px;
 }
 
 .shopping-icon {

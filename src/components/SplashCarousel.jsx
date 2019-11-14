@@ -4,9 +4,6 @@ import sweater1 from '../assets/img/sweater1.jpg';
 import guccibag from '../assets/img/guccibag.jpg';
 import triple from '../assets/img/triple.jpg';
 
-
-
-
 function SplashCarousel() {
   return (
 
