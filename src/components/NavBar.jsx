@@ -1,13 +1,14 @@
 import React from 'react';
 import './NavBar.css';
+import {Link} from 'react-router-dom';
 // import DropDown from './DropDown';
 
 function NavBar() {
   return (
-    <div className="nav-row">
-      <div className='row top'>
+    <div className="">
+      <div className='row top nav-row'>
         <ul>
-          <li className='btn home-button'>EVERLANE</li>
+          <li><Link className='btn home-button' to='/'>BURLYWOOD</Link></li>
         </ul>
       </div>
 
@@ -62,7 +63,9 @@ function NavBar() {
         </div>
         <div className='right-cluster'>
           <p>
-            <button className='btn shopping-icon'><i className='fas fa-shopping-bag'></i></button>
+
+          <Link className='btn shopping-icon' to='/HotPicks'><i className='fas fa-shopping-bag'></i></Link> 
+
           </p>
         </div>
 
